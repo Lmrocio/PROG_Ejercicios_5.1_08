@@ -9,6 +9,7 @@ Crea una clase ``Persona`` que tenga dos propiedades: ``nombre`` y ``edad``. Lue
 Añade un método cumple a la clase Persona que incremente la edad de la persona en uno cada vez que se llama.
 
 Sobreescribe el método toString() y prográmalo para que se muestre una persona con todas sus propiedades. Por ejemplo "Persona (nombre = Lucía, edad = 21)".
+
 En el main ejecuta el cumple de la persona y muestra su información de dos formas: accediendo a sus propiedades y mediante el método toString() (recuerda que no es necesario llamar al método toString(), sino que se invocará automáticamente cuando necesite realizar la conversión del contenido a String).
 
 - Encapsulamiento:
@@ -18,6 +19,7 @@ Modifica la clase Persona para que reciba la fecha de nacimiento por el construc
 - Herencia:
 
 Crea una clase Estudiante que herede de Persona y añade una propiedad carrera. Las propiedades deben incluir el modificador open (vuelve a dejar la propiedad edad pública).
+
 Realiza de nuevo un override de toString() para completar la información de Estudiante (intenta usar el resultado del método de la clase padre y completarlo).
 
 - Polimorfismo:
