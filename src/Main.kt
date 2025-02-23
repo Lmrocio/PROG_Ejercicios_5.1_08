@@ -25,6 +25,10 @@ fun main() {
     estudiante.actividad()
 
 
-    val personaInv = crearPersona("Diego", "2025-03-15")
+    val personaInv = crearPersona("", "1990-04-01")
     println(personaInv)
+
+
+    val personaInv2 = crearPersona("Diego", "2025-03-15")
+    println(personaInv2)
 }

@@ -3,7 +3,7 @@ open class Persona(val nombre: String,
 
     val edad: Int
         get() {
-           val anioNacimiento = fechaNac.split("-")[0].toInt()
+            val anioNacimiento = fechaNac.split("-")[0].toInt()
             val anioActual = 2025
             return anioActual - anioNacimiento
         }
